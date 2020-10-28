@@ -1,3 +1,4 @@
+
 package LabAssignment3;
 import java.util.Scanner;
 public class DiffDigits {
@@ -6,9 +7,7 @@ public class DiffDigits {
 		// TODO Auto-generated method stub
         Scanner s=new Scanner(System.in);
         int num=s.nextInt();
-        num=s.nextInt();
         String str=String.valueOf(num);
-        System.out.println(str);
         int result=modifyNumber(str);
         System.out.println(result);
         
